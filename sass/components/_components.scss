@@ -1,0 +1,49 @@
+/*Общее оформление*/
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
+    letter-spacing: 0.03em;
+}
+
+
+/* Секция*/
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+/*Контенер*/
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+
+/* Общее оформление кнопок*/
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+
+/* Общее оформление картинок*/
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
